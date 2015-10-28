@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHandel2015", "eHandel2015\eHandel2015.csproj", "{7351BB81-A03C-45D9-A569-D74E8A89E453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHandel2015.Repository", "eHandel2015.Repository\eHandel2015.Repository.csproj", "{8643308E-558A-4B40-95DD-77A5A69A02B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7351BB81-A03C-45D9-A569-D74E8A89E453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7351BB81-A03C-45D9-A569-D74E8A89E453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7351BB81-A03C-45D9-A569-D74E8A89E453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7351BB81-A03C-45D9-A569-D74E8A89E453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8643308E-558A-4B40-95DD-77A5A69A02B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8643308E-558A-4B40-95DD-77A5A69A02B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8643308E-558A-4B40-95DD-77A5A69A02B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8643308E-558A-4B40-95DD-77A5A69A02B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
