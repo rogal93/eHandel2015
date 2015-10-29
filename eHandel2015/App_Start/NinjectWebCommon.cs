@@ -1,3 +1,5 @@
+using eHandel2015.Repository.Abstract.Demo;
+
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(eHandel2015.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(eHandel2015.App_Start.NinjectWebCommon), "Stop")]
 
@@ -10,6 +12,7 @@ namespace eHandel2015.App_Start
 
     using Ninject;
     using Ninject.Web.Common;
+    using eHandel2015.Repository.Concrete.Demo;
 
     public static class NinjectWebCommon 
     {
@@ -61,6 +64,7 @@ namespace eHandel2015.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            kernel.Bind<IDemo>().To<Demo>();
         }        
     }
 }
