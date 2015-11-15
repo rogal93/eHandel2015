@@ -26,5 +26,6 @@ namespace eHandel2015.Repository
         }
     
         public DbSet<Demo> Demo { get; set; }
+        public DbSet<User> User { get; set; }
     }
 }
